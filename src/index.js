@@ -1,12 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+// import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+// import '../public/cssForKeyword.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
   <React.StrictMode>
+    
+    <link rel="stylesheet" href="https://keyword.vikaspedia.in/tsmpbmedia/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/cssForKeyword.css"></link>
+    {/* <link rel="stylesheet" href="../public/cssForKeyword.css"/> */}
+    
+              {/* <head>
+                    <script src='/bundle.js' defer></script>
+                    <style type="text/css">${[...css].join('')}</style>
+                    <link rel="stylesheet" href=${ms.static}/css/bootstrap.min.css>
+                    <link rel="stylesheet" href="/cssForKeyword.css">
+                    <script>window.__INITIAL_DATA__ = ${serialize(data)}</script>
+                    </head> */}
     <App />
   </React.StrictMode>
 );
