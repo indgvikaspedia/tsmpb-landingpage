@@ -11,6 +11,7 @@ import { ListGroup, ListGroupItem } from 'reactstrap';
 const WidthFooter = () => {
     return (
         <div className="footer">
+            
             <div className="container Contain" style={{ padding: 0, backgroundColor: 'darkgreen' }}>
                 <div className="row align-items:center " style={{ margin: 0, flexWrap: 'unset !important' }}>
                     <div className="col-md-3 col1" style={{ backgroundColor: 'darkgreen' }}>
