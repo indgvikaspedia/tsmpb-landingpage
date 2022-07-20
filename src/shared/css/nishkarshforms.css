@@ -133,6 +133,7 @@
     color: white;
     text-align: right;
     padding-left: 0px !important;
+    padding-right: 0px !important;
 }
 
 .col3p1{
@@ -144,7 +145,7 @@
 .col3p2{
     margin-right: 80px;
     margin-bottom: 0px;
-    font-size: 11px;
+    font-size: 10px;
 }
 
 .logo1{
@@ -163,7 +164,69 @@
     height: 75px;
     width: 75px;
 }
-@media screen and (max-width:768px){
+
+@media screen and (max-width:1216px){
+    .logo3 {
+        margin-top: -101px;
+        height: 75px;
+        width: 75px;
+    }
+    .logo2 {
+        height: 52px;
+    }
+    .col1, .col3 {
+        font-size: 14px;
+    }
+    .col2 {
+        font-size: 13px;
+    }
+    .col2p2{
+        font-size: 9px;
+    }
+}
+@media screen and (max-width:760px){
+    .logo1 {
+        margin-top: 37px;
+        height: 50px;
+        width: 50px;
+    }
+    .col1p1 {
+        margin-left: 68px;
+        margin-top: -72px;
+        font-size: 10px;
+    }
+    .col1p2 {
+        margin-left: 68px;
+        margin-top: 1px;
+        font-size: 10px;
+    }
+    .logo2 {
+        height: 45px;
+    }
+    .col2p1 {
+        font-size: 11px;
+    }
+    .col2p2 {
+        font-size: 8px;
+    }
+    .col3p1 {
+        margin-right: 55px;
+        margin-top: 38px;
+        font-size: 10px;
+    }
+    .col3p2 {
+        margin-right: 55px;
+        font-size: 9px;
+    }
+    .logo3 {
+        margin-top: -97px;
+        height: 50px;
+        width: 50px;
+    }
+}   
+
+
+@media screen and (max-width:506px){
     .head{
         height: 118px;
         background-color:rgb(2, 85, 2);
@@ -180,16 +243,17 @@
     }
 
     .col1p1{
-        margin-left: 60px;
+        margin-left: 42px;
         margin-bottom: 0px;
-        margin-top: -85px;
-        font-size: 8px;
+        margin-top: -75px;
+        font-size: 6px;
     }
     
     .col1p2{
-        margin-left: 60px;
+        margin-left: 42px;
         margin-bottom: 0px;
-        font-size: 8px;
+        margin-top: 1px;
+        font-size: 6px;
     }
     
     .col2{
@@ -205,11 +269,11 @@
 
     .col2p1{
         margin-bottom: 0px;
-        font-size: 9px;
+        font-size: 7px;
     }
     
     .col2p2{
-        font-size: 6px;
+        font-size: 5px;
         margin-bottom: 0px;
     }
     
@@ -218,39 +282,40 @@
         color: white;
         text-align: right;
         padding-left: 0px !important;
+        padding-right: 0px !important;
         font-size: 8px;
         /* max-width: min-content; */
     }
 
     .col3p1{
-        margin-right: 67px;
+        margin-right: 42px;
         margin-bottom: 0px;
         margin-top: 38px;
-        font-size: 8px;
+        font-size: 6px;
     }
     
     .col3p2{
-        margin-right: 67px;
+        margin-right: 42px;
         margin-bottom: 0px;
-        font-size: 8px;
+        font-size: 5px;
     }
     
     .logo1{
         margin-top: 30px;
         margin-bottom: 35px;
-        height: 55px;
-        width: 55px;
+        height: 40px;
+        width: 40px;
     }
     
     .logo2{
         margin-top: 5px;
-        height: 60px;
+        height: 40px;
     }
     
     .logo3{
-        margin-top: -67px;
-        height: 65px;
-        width: 65px;
+        margin-top: -60px;
+        height: 40px;
+        width: 40px;
     }
   }
 
