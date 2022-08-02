@@ -25,8 +25,8 @@ const TSMPBHeader = () => {
                 // style={{ maxWidth: "1320px !important" }}
                 >
                     {/* <Container  style={height == 200 ? {maxWidth:"1320px !important"}:"null"}> */}
-                    <Row>
-                        <Col className="col1">
+                    <Row className='align-items-center'>
+                        <Col className="flex-center col1">
                             {/* <img className={logo1} src='https://keyword.vikaspedia.in/tsmpbmedia/Govt-of-Telangana.png' alt="gov_ts" /> */}
                             <img className="logo1" 
                             // src='http://localhost/tsmpb/TS_Gov_logo.png'
@@ -34,8 +34,11 @@ const TSMPBHeader = () => {
                              alt="gov_ts" />
                             {/* <p style={{ marginLeft: 80, marginBottom: 0, marginTop: -80 }}><b>GOVERNMENT OF TELANGANA</b></p>
                             <p style={{ marginLeft: 80, marginBottom: 0, marginTop: -5 }}>తెలంగాణా ప్రభుత్వం</p> */}
-                            <p className="col1p1"><b>GOVERNMENT OF TELANGANA</b></p>
-                            <p className="col1p2">తెలంగాణా ప్రభుత్వం</p>
+                            <div className="left_part text-white">
+                                <p><b>GOVERNMENT OF TELANGANA</b></p>
+                                <p>తెలంగాణా ప్రభుత్వం</p>
+                            </div>
+                            
                         </Col>
 
                         <Col className="col2">
@@ -51,12 +54,14 @@ const TSMPBHeader = () => {
                             <p className="col2p2">Department of Health, Medical & Family Welfare</p>
                         </Col>
 
-                        <Col className="col3">
+                        <Col className="flex-center justify-content-end col3">
                             {/* <p style={{ marginRight: 80, marginTop: 38, marginBottom: 0 }}><b>NATIONAL MEDICINAL PLANTS BOARD</b></p>
                             <p style={{ fontSize: 11, marginRight: 80, marginBottom: 0 }}>Ministry of AYUSH, Government of India</p> */}
                             {/* <img className={logo3} src='https://keyword.vikaspedia.in/tsmpbmedia/NMPB.png' alt="nt_gov" /> */}
-                            <p className="col3p1"><b>NATIONAL MEDICINAL PLANTS BOARD</b></p>
-                            <p className="col3p2">Ministry of AYUSH, Government of India</p>
+                            <div className="right_part text-right text-white">
+                                <p><b>NATIONAL MEDICINAL PLANTS BOARD</b></p>
+                                <p>Ministry of AYUSH, Government of India</p>
+                            </div>
                             <img className="logo3" 
                             // src='http://localhost/tsmpb/NMPB-logo.png' 
                              src={require("../images1/NMPB-logo.png")}

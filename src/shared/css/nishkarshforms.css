@@ -86,13 +86,28 @@
 
 /* TSMPB "Homepage Header" CSS Starts Here:- */
 .head{
-    height: 118px;
+    min-height: 120px;
     background-color:rgb(2, 85, 2);
-    /* min-height: calc(100vh - 125px); */
+    padding: 10px 0px;
 }
-
+.flex-center {
+    display: flex;
+    align-items: center !important;
+}
+.left_part {
+    margin-left: 4px;
+}
+.left_part p {
+    margin: 0;
+}
+.right_part {
+    margin-right: 6px;
+}
+.right_part p {
+    margin: 0;
+}
 .col1{
-    height: 120px;
+    min-height: 120px;
     color: white;
     text-align: left;
     padding-right: 0px !important;
@@ -129,7 +144,7 @@
 }
 
 .col3{
-    height: 120px;
+    min-height: 120px;
     color: white;
     text-align: right;
     padding-left: 0px !important;
@@ -149,8 +164,6 @@
 }
 
 .logo1{
-    margin-top: 22px;
-    margin-bottom: 22px;
     height: 75px;
     width: 75px;
 }
@@ -160,14 +173,12 @@
 }
 
 .logo3{
-    margin-top: -67px;
     height: 75px;
     width: 75px;
 }
 
 @media screen and (max-width:1216px){
     .logo3 {
-        margin-top: -101px;
         height: 75px;
         width: 75px;
     }
@@ -175,7 +186,7 @@
         height: 52px;
     }
     .col1, .col3 {
-        font-size: 14px;
+        font-size: 9px;
     }
     .col2 {
         font-size: 13px;
@@ -186,7 +197,6 @@
 }
 @media screen and (max-width:760px){
     .logo1 {
-        margin-top: 37px;
         height: 50px;
         width: 50px;
     }
@@ -219,26 +229,31 @@
         font-size: 9px;
     }
     .logo3 {
-        margin-top: -97px;
         height: 50px;
         width: 50px;
     }
-}   
+} 
 
 
 @media screen and (max-width:506px){
     .head{
-        height: 118px;
+        min-height: 120px;
         background-color:rgb(2, 85, 2);
         /* min-height: calc(100vh - 125px); */
     }
-    
+    .hdcon.container{
+        padding: 0 6px;
+    }
+    .right_part,.left_part{
+        font-size: 6px;
+    }
     .col1{
-        height: 118px;
+        min-height: 118px;
         color: white;
         text-align: left;
         padding-right: 0px !important;
         font-size: 8px;
+
         /* max-width: min-content; */
     }
 
@@ -278,7 +293,7 @@
     }
     
     .col3{
-        height: 118px;
+        min-height: 118px;
         color: white;
         text-align: right;
         padding-left: 0px !important;
@@ -301,8 +316,6 @@
     }
     
     .logo1{
-        margin-top: 30px;
-        margin-bottom: 35px;
         height: 40px;
         width: 40px;
     }
@@ -313,7 +326,6 @@
     }
     
     .logo3{
-        margin-top: -60px;
         height: 40px;
         width: 40px;
     }
